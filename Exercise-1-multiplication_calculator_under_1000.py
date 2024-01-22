@@ -9,6 +9,8 @@
 # Multiplication Calculator
 
 while True:
+
+# Making sure that the input for the first value only accepts integers
     first_value = input ("Enter your first integer:")
     
     if first_value.isdigit():
@@ -17,6 +19,7 @@ while True:
         print("Values must be numbers!")
         break
 
+# Making sure that the input for the second value only accepts integers
     second_value = input ("Enter your second integer:")
 
     if second_value.isdigit():
@@ -24,9 +27,11 @@ while True:
     else:
          print("Values must be numbers!")
 
+# Operators that will be used for the desired outcomes
     product = first_value * second_value
     sum = first_value + second_value
 
+# Making sure that it prints the product if it's (< 1000) and the sum if it's (< 1000)
     if product < 1000:
         print(product)
         break
