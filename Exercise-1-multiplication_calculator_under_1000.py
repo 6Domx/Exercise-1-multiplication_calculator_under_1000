@@ -27,4 +27,11 @@ while True:
     product = first_value * second_value
     sum = first_value + second_value
 
+    if product < 1000:
+        print(product)
+        break
+    else:
+        print(sum)
+        break
+
         
