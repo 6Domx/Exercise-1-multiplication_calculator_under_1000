@@ -25,6 +25,6 @@ while True:
          print("Values must be numbers!")
 
     product = first_value * second_value
-    print(product)
+    sum = first_value + second_value
 
         
