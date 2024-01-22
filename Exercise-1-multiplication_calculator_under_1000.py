@@ -8,11 +8,23 @@
 
 # Multiplication Calculator
 
-# while True:
+while True:
     first_value = input ("Enter your first integer:")
-    second_value = input ("Enter your second integer:")
-    if first_value.isdigit and second_value.isdigit():
-        first_value = int
-        second_value = int 
+    
+    if first_value.isdigit():
+         first_value = int(first_value)
     else:
         print("Values must be numbers!")
+        break
+
+    second_value = input ("Enter your second integer:")
+
+    if second_value.isdigit():
+            second_value = int(second_value)
+    else:
+         print("Values must be numbers!")
+
+    product = first_value * second_value
+    print(product)
+
+        
